@@ -1,3 +1,35 @@
-h1{
-    color: hotpink;
+
+.buy-now{
+    background-color: black;
+    color: white;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 8PX;
+}
+.slider p{
+    color: gray;
+    margin: 25px 0px;
+}
+.products{
+    padding: 50px 0px;
+}
+.products a{
+    text-decoration: none;
+    color: orange;
+}
+.card p{
+    color: gray;
+    margin-bottom: 35px;
+}
+.card,.card-footer{
+    border: none;
+}
+.card-footer {
+    padding-top: 0px;
+}
+.card img{
+    width: 50%;
+}
+#categories{
+    padding-top: 40px;
 }
