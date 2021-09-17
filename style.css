@@ -33,3 +33,25 @@
 #categories{
     padding-top: 40px;
 }
+.play-order{
+    width: 100%;
+}
+.categories-middle img{
+    width: 50%;
+}
+.categori-bag{
+    margin-bottom: 50px;
+}
+.categori-shoe{
+    margin-top: 50px;
+}
+#categories{
+    padding-top: 140px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: orange;
+}
