@@ -1,4 +1,7 @@
-
+.navbar-light .navbar-toggler {
+    color: rgb(30 30 31 / 6%);
+    border-color: rgba(0,0,0,.1);
+}
 .buy-now{
     background-color: black;
     color: white;
@@ -6,6 +9,11 @@
     border: none;
     border-radius: 8PX;
 }
+@media only screen and (max-width: 750px) {
+    #carousel {
+        margin-top: 80px;
+    }
+  }
 .slider p{
     color: gray;
     margin: 25px 0px;
@@ -33,6 +41,18 @@
 #categories{
     padding-top: 40px;
 }
+.categories_title{
+    position: absolute;
+}
+.catagories_style {
+    background: #FFC021;
+    border-radius: 8px;
+    width: 65%;
+    height: 6px;
+    position: relative;
+    top: 0px;
+    left: 20%;
+}
 .play-order{
     width: 100%;
 }
@@ -49,6 +69,7 @@
     padding-top: 140px;
 }
 footer a{
+    padding: 20px 0px;
     text-decoration: none;
     color: black;
 }
